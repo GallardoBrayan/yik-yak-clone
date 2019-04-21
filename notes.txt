@@ -1,0 +1,23 @@
+ES5 is conventional javascript
+React uses ES6
+
+In order to install react into a project you need to install
+
+in order to run the react code you have to run webpack
+npx webpack
+
+react
+    npm i -S react
+    react-dom
+
+npm i -S react-dom
+    takes your react code and binds it to the dom
+    react native doesn’t use react-dom
+
+webpack
+    npm install webpack-cli --save-dev
+    webpack runs a bundle task
+babel
+    react babel and preset
+    npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+    Babel is a transpiler to transpile ES6 to ES5 but these babel tasks need to be run by webpack
